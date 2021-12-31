@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.ChainOfResponsibility;
 using DesignPatterns.CreationalPatterns.BuilderPattern;
+using DesignPatterns.CreationalPatterns.CommandPattern;
 using DesignPatterns.CreationalPatterns.FactoryPattern;
 using System;
 
@@ -17,8 +18,11 @@ namespace DesignPatterns
             //FactoryExecutor factoryExecutor = new FactoryExecutor();
             //factoryExecutor.Execute();
 
-            BuilderExecutor builderExecutor = new BuilderExecutor();
-            builderExecutor.Execute();
+            //BuilderExecutor builderExecutor = new BuilderExecutor();
+            //builderExecutor.Execute();
+
+            CommandPatternExecutor commandPatternExecutor = new CommandPatternExecutor();
+            commandPatternExecutor.Execute();
 
             Console.WriteLine("Press any key to exit");
             Console.ReadLine();
