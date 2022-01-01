@@ -3,6 +3,7 @@ using DesignPatterns.CreationalPatterns.BuilderPattern;
 using DesignPatterns.BehavioralPatterns.CommandPattern;
 using DesignPatterns.CreationalPatterns.FactoryPattern;
 using System;
+using DesignPatterns.BehavioralPatterns.StrategyPattern;
 
 namespace DesignPatterns
 {
@@ -21,8 +22,11 @@ namespace DesignPatterns
             //BuilderExecutor builderExecutor = new BuilderExecutor();
             //builderExecutor.Execute();
 
-            CommandPatternExecutor commandPatternExecutor = new CommandPatternExecutor();
-            commandPatternExecutor.Execute();
+            //CommandPatternExecutor commandPatternExecutor = new CommandPatternExecutor();
+            //commandPatternExecutor.Execute();
+
+            StrategyPatternExecutor stratgeyPatternExecutor = new StrategyPatternExecutor();
+            stratgeyPatternExecutor.Execute();
 
             Console.WriteLine("Press any key to exit");
             Console.ReadLine();
