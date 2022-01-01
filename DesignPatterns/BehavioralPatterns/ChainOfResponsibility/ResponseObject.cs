@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.ChainOfResponsibility
+namespace DesignPatterns.BehavioralPatterns.ChainOfResponsibility
 {
     public class ResponseObject
     {

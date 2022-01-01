@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.CreationalPatterns.CommandPattern.Exceptions
+namespace DesignPatterns.BehavioralPatterns.CommandPattern.Exceptions
 {
     public class InvalidParameterException : Exception
     {

@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.ChainOfResponsibility
+namespace DesignPatterns.BehavioralPatterns.ChainOfResponsibility
 {
-    public class AutheticationHandler : BaseHandler
+    public class RoutingHandler: BaseHandler
     {
         public override ResponseObject Handle(RequestObject request)
         {
-            request.RequestStagesProcessed.Add("I am AutheticationHandler. I will only allow authenticated users/requests to enter the system.\n");
+            request.RequestStagesProcessed.Add("I am RoutingHandler. I match the incoming request to the API Endpoint.\n");
             return base.Handle(request);
         }
     }

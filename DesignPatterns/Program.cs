@@ -1,6 +1,6 @@
-﻿using DesignPatterns.ChainOfResponsibility;
+﻿using DesignPatterns.BehavioralPatterns.ChainOfResponsibility;
 using DesignPatterns.CreationalPatterns.BuilderPattern;
-using DesignPatterns.CreationalPatterns.CommandPattern;
+using DesignPatterns.BehavioralPatterns.CommandPattern;
 using DesignPatterns.CreationalPatterns.FactoryPattern;
 using System;
 
